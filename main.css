@@ -1,10 +1,10 @@
 body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: white;
     overflow-y: scroll;
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 div#wrapper{
@@ -19,7 +19,7 @@ header{
     top:0;
     width: 900px;
     height: 150px;
-    color: grey;
+    color: white;
     background-color: #363636;
     background-image: url(img/logo.png);
     background-size: 100% 100%;
@@ -43,22 +43,28 @@ a.header{
     width: 7em;
     text-decoration: none;
     color: inherit;
-    padding: 1em 2em;
-    border-right: 1px solid grey;
+    padding: 1em 3em;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
-a.header:hover{
-    color: white;
+a.header:hover, a.footer:hover{
+    color: grey;
 }
 
 ul.header{
     list-style: none;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 li.header{
     margin-top: 25px;
     float: left;
+}
+
+.centered{
+    text-align: center;
+    
 }
 
 ul {
@@ -68,6 +74,11 @@ ul {
 a.header {
     color: inherit;
     text-decoration: inherit;
+}
+
+a.footer {
+    color: white;
+    text-decoration: none;
 }
 
 ul.article{
