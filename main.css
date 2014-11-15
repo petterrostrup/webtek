@@ -34,6 +34,11 @@ div.maincontent{
     margin-top: 10px;
 }
 
+div.innercontent{
+    padding: 25px;
+    margin-left: 25px;
+}
+
 a.header{
     width: 7em;
     text-decoration: none;
@@ -60,19 +65,34 @@ ul {
     list-style-position:inside;
 }
 
-a {
+a.header {
     color: inherit;
     text-decoration: inherit;
 }
 
-h{
-    font-weight: bold;
-    text-align: center;
+ul.article{
+    list-style: none;
+    padding: 25px;
+}
+
+li.article{
+    border: 1px solid black;
+}
+
+div.innerarticle{
+    display: inline-block;
+}
+
+iframe.article{
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 300px;
 }
 
 footer{
     min-width: 300px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 900px;
     height: 100px;
