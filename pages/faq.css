@@ -1,0 +1,20 @@
+faq {
+    margin: 10px;
+    width: 600px;
+}
+questions {
+    display: block;
+    font-family: Arial, Helvertica, sans-serif;
+}
+question {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+answer {
+    display: block;
+    font-family: Times New Roman, Times, serif;
+    color: gray;
+    margin-left: 35px;
+}
