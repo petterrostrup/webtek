@@ -1,0 +1,89 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: white;
+    overflow-y: scroll;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#wrapper{
+    margin-left: 500px;
+    margin-right: 500px;
+    position: relative;
+}
+
+img.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+header{
+    min-width: 300px;
+    position: absolute;
+    top:0;
+    width: 900px;
+    height: 150px;
+    color: grey;
+    background-color: #363636;
+    background-image: url(img/logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div.maincontent{
+    min-height: 1000px;
+    height: auto;
+    width: 900px;
+    background-color: #e2e2e2;
+}
+
+a.header{
+    width: 7em;
+    text-decoration: none;
+    color: inherit;
+    padding: 1em 2em;
+    border-right: 1px solid grey;
+}
+
+a.header:hover{
+    color: white;
+}
+
+ul.header{
+    list-style: none;
+    margin-top: 70px;
+}
+
+li.header{
+    margin-top: 25px;
+    float: left;
+}
+
+ul {
+    list-style-position:inside;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h{
+    font-weight: bold;
+    text-align: center;
+}
+
+footer{
+    min-width: 300px;
+    position: absolute;
+    bottom: 0;
+    width: 900px;
+    height: 100px;
+    color: grey;
+    background-color: #363636;
+}
