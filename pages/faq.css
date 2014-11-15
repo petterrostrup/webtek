@@ -5,9 +5,10 @@ faq {
 questions {
     display: block;
     font-family: Arial, Helvertica, sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
 }
 question {
-    display: list-item;
     list-style-type: disc;
     margin-left: 30px;
     margin-top: 10px;
