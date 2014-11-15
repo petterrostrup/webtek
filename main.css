@@ -13,18 +13,9 @@ div#wrapper{
     position: relative;
 }
 
-img.header{
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 150px;
-    width: 150px;
-    float: left;
-}
-
 header{
     min-width: 300px;
-    position: absolute;
+    position: relative;
     top:0;
     width: 900px;
     height: 150px;
@@ -40,6 +31,7 @@ div.maincontent{
     height: auto;
     width: 900px;
     background-color: #e2e2e2;
+    margin-top: 10px;
 }
 
 a.header{
