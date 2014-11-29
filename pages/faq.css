@@ -1,12 +1,20 @@
-faq {
+h2 {
+    position: relative;
+    display: inline;
+    margin-left: 30%;
+    } faq {
     margin: 10px;
     width: 600px;
 }
 questions {
+    margin-top: 20px;
     display: block;
     font-family: Arial, Helvertica, sans-serif;
-    font-size: 30px;
+    width: 50%;
+    margin-left: 30%;
     padding-bottom: 30px;
+    border-top: 1px solid;
+    border-left: 1px solid
 }
 question {
     list-style-type: disc;
