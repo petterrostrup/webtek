@@ -3,3 +3,17 @@
 
 	margin-right: 50%;
 }
+
+#servers{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: -15px;
+	line-height: 30px;
+	width: 50%;
+	border-top: 1px solid;
+	border-left: 1px solid;
+}
+
+#servers-content{
+	margin-left: 5px;
+}
