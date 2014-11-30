@@ -1,8 +1,5 @@
-#img {
-  background-image: url('../img/forumExample.png');
-  background-size: contain;
-  position: absolute;
-  background-repeat: no-repeat;
-  height: 100%;
+#forum {
+	position: relative;
+  height: 500px;
   width: 100%;
 }
