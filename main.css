@@ -26,6 +26,13 @@ header{
     background-repeat: no-repeat;
 }
 
+img.articleImg{
+	position: relative;
+	height: 400px;
+	width: 100%;
+	
+}
+
 div.maincontent{
     min-height: 1000px;
     height: auto;
